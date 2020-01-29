@@ -1,0 +1,99 @@
+#cardimg{
+	width: 500px;
+	height:500px;
+	
+	
+	background:pink ;
+	box-shadow: 15px 15px 5px 5px black;
+	margin-left: 400px;
+	margin-top: 100px;
+	border-top-left-radius: 50px;
+	display: none;
+	border:2px solid black;
+	
+	z-index: 10;
+	position: absolute;
+}
+img
+{
+	height: 200px;
+	width:200px;
+	margin-top: 10px;
+}
+
+
+.front{
+	width: 500px;
+	height:520px;
+	
+	position: absolute;
+	background-image: ;
+	box-shadow: 15px 15px 5px 5px black;
+	margin-left: 400px;
+	margin-top: 100px;
+	border-top-left-radius: 50px;
+	border:2px solid black;
+	z-index: 6;
+}
+body
+{
+	background-image: url(christoph-keil-KTKvnZ42QQE-unsplash.jpg);
+	background-size: cover
+}
+input
+{
+	margin:30px;
+	border-top-left-radius: 30px;
+	height: 40px;
+	width:400px;
+	z-index: 4;
+	box-shadow: 12px 10px black;
+	text-align: center;
+    
+	font-size: 20px;
+	border:2px solid deeppink;
+	
+}
+button
+{
+	background: pink;
+	
+}
+#but3
+{height:40px;
+	width:250px;
+	
+	
+}
+#img2
+{
+	height:20px;
+	width:20px;
+	color: pink;
+	margin-bottom: 1px;
+}
+#but2
+{
+	
+
+	
+	
+	height:50px;
+	width:300px;
+	
+	
+}
+#but
+{
+	height:50px;
+	width:200px;
+	
+}
+span
+{
+	font-family:Eagle Lake;
+	color: deeppink;
+	font-size: 30px;
+	text-shadow: 1px 3px black;
+	font-weight: 600;
+}
