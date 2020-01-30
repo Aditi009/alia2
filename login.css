@@ -1,3 +1,148 @@
+
+h1
+		{font-size: 2.1rem;
+			line-height: 1.4;
+			letter-spacing: .5rem;
+			text-align: center;
+			color:white;
+			margin-top: 50px;
+			
+		}
+		#main_div
+{
+	width:60%;
+	height:300px;
+	position: absolute;
+	left: 50%;
+	top:60%;
+	transform: translate(-50%,-50%);
+	box-shadow: 1px 2px 10px 5px white;
+	background-image: url("lucas-newton-rgJ7WSQsE40-unsplash.jpg");
+	background-size: 100% 100%;
+	animation: slider 9s infinite linear;
+}
+		
+@keyframes slider
+		{
+			0%{background-image: url("lucas-newton-rgJ7WSQsE40-unsplash.jpg");}
+				35%{background-image: url("petr-ovralov-qQ01rvKkE0w-unsplash.jpg");}
+				75%{background-image: url("photo-nic-co-uk-nic-NIX7pbp6UGU-unsplash.jpg");}
+			
+		}
+#head
+{
+	height: 60px;width:50%;
+	
+	
+	border: 2px solid black;
+	box-shadow: 10px 10px 5px;
+}
+#butt{
+	position: absolute;
+	font-size: 16px;
+	color:firebrick;
+	border: 2px solid black;
+	
+	}
+#butt3
+{
+	\
+}
+
+
+*
+{
+	margin: 0px;
+	padding:0px;
+}
+#sec
+
+{
+	height: 500px;
+	width:500px;
+	background-color: aqua;
+}
+
+
+
+#header
+{
+	
+background-color:pink;
+}
+#list
+{
+	text-decoration: none;
+	text-align: center;
+}
+#list ul
+{
+	display: inline-flex;
+	color: aliceblue;
+	list-style: none;
+}
+#list ul li a
+{
+	text-decoration: none;
+	color:deeppink;
+	
+}
+#list ul li
+{
+	width:40%;
+	
+	top:50%;
+	margin-top: 10px;
+	border:2px solid deeppink;
+	margin-left: 5px;
+	border-radius: 10px;
+	box-shadow: 10px 4px 5px black;
+
+	
+}
+.active,#list ul li:hover
+{ background-color:transparent;
+    margin-top: 5px;
+	border-radius: 30px;
+	height:25px;
+	box-shadow: 10px 4px 5px black;
+width:100px;
+	
+	
+}
+#list ul li a:hover{
+	height:40px;
+	width: 300px;
+	margin-left: 2px;
+}
+#butt::after,#butt::before
+{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border: 5px solid firebrick;
+	transition: all .9s ease;
+	
+}#butt::after
+{
+	bottom: 0;
+	right: 0;
+	border-top-color:transparent;
+	border-left-color: transparent;
+	
+}
+#butt::before{
+	top:0;
+	left:0;
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+}
+#butt:hover::after,#butt:hover::before{
+	width:10%;
+	height: 10%;
+}
+
 #cardimg{
 	width: 500px;
 	height:500px;
@@ -23,33 +168,35 @@ img
 
 
 .front{
-	width: 500px;
-	height:520px;
 	
+	
+	height:380px;
+	min-width: 300px;
 	position: absolute;
 	background-image: ;
 	box-shadow: 15px 15px 5px 5px black;
-	margin-left: 400px;
+   margin-left: 30%;
 	margin-top: 100px;
 	border-top-left-radius: 50px;
 	border:2px solid black;
 	z-index: 6;
+	display: none;
 }
-body
-{
-	background-image: url(christoph-keil-KTKvnZ42QQE-unsplash.jpg);
-	background-size: cover
-}
+
+
 input
 {
-	margin:30px;
+	
+	
 	border-top-left-radius: 30px;
-	height: 40px;
-	width:400px;
+	
+	
+	width:70%;
 	z-index: 4;
-	box-shadow: 12px 10px black;
+	box-shadow:0 0 10px 10px black;
 	text-align: center;
-    
+   
+	margin: 15px;
 	font-size: 20px;
 	border:2px solid deeppink;
 	
@@ -77,9 +224,10 @@ button
 	
 
 	
+	border-radius: 30px;
+	height:30px;
+	width:200px;
 	
-	height:50px;
-	width:300px;
 	
 	
 }
@@ -93,7 +241,7 @@ span
 {
 	font-family:Eagle Lake;
 	color: deeppink;
-	font-size: 30px;
+	font-size: 20px;
 	text-shadow: 1px 3px black;
 	font-weight: 600;
 }
