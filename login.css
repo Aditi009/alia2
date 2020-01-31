@@ -48,7 +48,7 @@ h1
 	border: 2px solid deeppink;
 	box-shadow: 10px 2px 10px 5px black;
 	background-image: url("petr-ovralov-qQ01rvKkE0w-unsplash.jpg");
-	background-size: 100% 100%;
+	background-size: 80% 80%;
 	animation: slider 9s infinite linear;
 	
 	margin-top: 500px;
