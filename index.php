@@ -2,6 +2,7 @@
 	<head>
 		<link href='https://fonts.googleapis.com/css?family=Eagle Lake' rel='stylesheet'>
 		<link rel="stylesheet" type="text/css" href="login.css" />
+		<link href="https://fontawesome.com/icons/address-book?style=solid" rel="stylesheet">
 	</head>
 	<body><center>
 		<div id="part1">
@@ -63,7 +64,62 @@
 		<div id="part2">
 		
 			<div id="main_div"></div>
+			
+			
+			
+			
+			<div id="main_div2"></div>
+			
 	</div>
+		
+		
+		
+		
+		
+		
+		<footer id="foot">
+			
+		
+			   <div class="footer-column">
+                <ul>
+                    <li><b>LEARN</b></li>
+                    <li><a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/">Algorithms</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/data-structures/">Data Structures</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/category/program-output/">Languages</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/articles-on-computer-science-subjects-gq/">CS Subjects</a></li>
+                    <li><a href="https://www.youtube.com/geeksforgeeksvideos/">Video Tutorials</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <ul>
+                    <li><b>PRACTICE</b></li>
+                    <li><a href="https://practice.geeksforgeeks.org/courses/">Courses</a></li>
+                    <li><a href="https://practice.geeksforgeeks.org/company-tags/">Company-wise</a></li>
+                    <li><a href="https://practice.geeksforgeeks.org/topic-tags/">Topic-wise</a></li>
+                    <li><a href="https://practice.geeksforgeeks.org/faq.php">How to begin?</a></li>
+                </ul>
+            </div>
+		
+			
+
+			
+
+            <div class="footer-column">
+                <ul><i class="fas fa-id-card-alt"></i>
+					<i class="fas fa-address-book"></i>
+                    <li><b>CONTRIBUTE</b>
+                    <li><a href="https://www.geeksforgeeks.org/contribute/">Write an Article</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/write-interview-experience/">Write Interview Experience</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/internship/">Internships</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/how-to-contribute-videos-to-geeksforgeeks/">Videos</a></li>
+                </ul>
+            </div>
+
+       
+			
+			
+		</footer>
 			
 
 			
@@ -78,6 +134,7 @@
 		function on2()
 		{
 			document.getElementsByClassName("front").style.display="none";
+			 document.getElementById("cardimg").style.display="block";
 		}
 		
 		function on()
